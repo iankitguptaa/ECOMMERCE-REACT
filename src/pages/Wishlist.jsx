@@ -44,7 +44,7 @@ const Wishlist = () => {
                     <div>
                       <h3>{item.name}</h3>
                       <p className="wishlist-item-price">
-                        ${item.price.toFixed(2)}
+                        ₹{item.price.toFixed(2)}
                       </p>
                     </div>
                   </div>
@@ -71,7 +71,7 @@ const Wishlist = () => {
             <div className="cart-summary wishlist-summary">
               <div className="cart-summary-row cart-summary-total">
                 <span>Wishlist total value</span>
-                <span>${wishlistTotal.toFixed(2)}</span>
+                <span>₹{wishlistTotal.toFixed(2)}</span>
               </div>
             </div>
           </>
