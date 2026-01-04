@@ -58,7 +58,7 @@ const featuredClothes = [
     name: 'Everyday Sneakers',
     description: 'Minimal sneakers that match any outfit.',
     price: 1999,
-    image: '/images/products/slim-jeans.jpg',
+    image: '/images/products/sneakers.jpg',
   },
 ]
 
